@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    /* margin: 50px auto; */
+    margin: 26px auto;
+    margin-bottom: 0px;
+    /* padding: 15px; */
+    /* display: flex;
+    flex-direction: row;
+    margin: 35px auto;
+    padding: 30px 35px; */
+    /* justify-content: center; */
+}
+.left-container{
+    width: 30%;
+    height: 100%;
+    padding-top: 21px;
+    /* position: relative; */
+}
+#left1{
+    font-weight: bolder;
+    /* font-size:2.3rem; */
+    font-size: 2.3rem;
+    /* position: absolute; */
+}
+#left2{
+    /* position: absolute; */
+    font-size: 2.1rem;
+    margin-left: 13px;
+    opacity: 0.3;
+}
+.right-container{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+right: 0px;
+    padding-top: 21px;
+    /* padding-left: 65px; */
+    padding-left: 64px;
+    /* padding-left: 26px; */
+   padding-right: 25px;
+}
+#circle{
+    width: 10%;
+}
+#addList{
+    position: absolute;
+    widows: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    opacity: 0.3;
+    padding-top: 21px;
+}
+.cards{
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid rgb(245, 176, 176); */
+}
+.card1{
+    position: relative;
+   
+    margin: 26px;
+    /* margin: auto; */
+    border: 2px solid aqua;
+    width: 15%;
+    height: 45vh;
+    border-radius: 11px;
+    box-shadow: 5px 5px 9px rgb(186, 182, 182);
+}
+.card2{
+    position: relative;
+    margin: 26px;
+    /* margin: auto; */
+    border: 2px solid aqua;
+    width: 15%;
+    height: 45vh;
+    border-radius: 11px;
+    box-shadow: 5px 5px 9px rgb(186, 182, 182);
+}
+.card3{
+    position: relative;
+    margin: 26px;
+    /* margin: auto; */
+    border: 2px solid aqua;
+    width: 15%;
+    height: 45vh;
+    border-radius: 11px;
+    box-shadow: 5px 5px 9px rgb(186, 182, 182);
+}
+.div-1{
+    position: absolute;
+    top: 17px;
+    right: 0px;
+    font-size: 26px;
+    width: 86%;
+    text-align: left;
+    height: 17%;
+    color: tomato;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.div-2{
+    width: 96%;
+    height: 11%;
+    font-size: 21px;
+    color: darkred;
+    text-align: right;
+    position: absolute;
+    top:35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.div-3{
+    opacity: 1.0;
+    width: 85%;
+    height: 10%;
+    font-size: 20px;
+    position: absolute;
+    top: 52%;
+    color: rgb(101, 98, 98);
+    text-align: center;
+}
+#check{
+    width: 17px;
+    height: 17px;
+margin-left: 7px;
+}
+.notshow{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 26%;
+    color: red;
+    height: 25vh;
+    width: 26%;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: white;
+    box-shadow: 2px 1px 10px grey;
+    padding: 21px;
+}
+#newList{
+    font-size: 17px;
+    opacity: 0.7;
+}
+#list1{
+    margin-top: 17px;
+    border: 2px solid rgb(245, 144, 144);
+    height: 30px;
+    width: 85%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 9px grey;
+}
+#btn{
+    width: 25%;
+    height: 30px;
+    background-color: rgb(242, 105, 105);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 17px;
+    position: absolute;
+    left: 135px;
+    font-size: 17px;
+    letter-spacing: 0.7;
+    cursor: pointer;
+}
