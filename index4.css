@@ -97,11 +97,13 @@
 }
 .pop-up{
     position: absolute;
-    left: 37%;
-    top: 26%;
+    /* -37left */
+    left: 33%;
+    top: 18%;
     color: red;
-    height: 25vh;
-    width: 26%;
+    /* h-25vh wid-26% */
+    height: 30vh;
+    width: 29%;
     border: 2px solid palevioletred;
     border-radius: 10px;
     font-size: 17px;
